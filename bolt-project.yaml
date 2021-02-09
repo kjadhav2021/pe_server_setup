@@ -1,0 +1,7 @@
+---
+name: pe_server_setup
+modules: []
+plans: []
+tasks:
+- pe_server_setup::install_pe_server
+- pe_server_setup::copy_config_file
